@@ -1,0 +1,281 @@
+/*
+Template Name : Movie Platform Maker created by Endorphins.
+Author        : Endorphins
+Version       : 1.0
+
+#1. Card
+#2. Main Category
+#3. Form
+#4. Toggle
+#5. Table
+#6. Password Reset
+#7. Terms of service
+
+*/
+/************* Card ******************/
+
+.card .card-img-overlay small.badge-secondary{
+  font-size: 12px;
+  font-weight: 900;
+  background-color: #456CD9;
+  padding: 5px 10px;
+}
+
+.card .card-img-overlay small.badge-success{
+  font-size: 12px;
+  font-weight: 900;
+  background-color: #76c1c7;
+  padding: 5px 10px;
+}
+
+.card .card-img-overlay small.badge-danger{
+  font-size: 12px;
+  font-weight: 900;
+  background-color: #ff5e3a;
+  padding: 5px 10px;
+}
+
+.card .card-body .card-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #333333;
+  line-height: 19px;
+  text-decoration: none;
+  display: block;
+  min-height: 38px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.card .card-body a.channel-name {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #a7a7a7;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  line-height: 19px;
+}
+
+.card-img-overlay {
+  bottom: 80%;
+}
+
+.category_wrap{
+  margin-bottom: 30px;
+}
+
+/************* Card ******************/
+
+#main-category .main-category-menu img{
+  max-width: 35px;
+  max-height: 35px;
+}
+
+.card-trash{
+  font-size: larger;
+}
+
+/************* Form ******************/
+
+.input-group>.custom-file:not(:last-child) .custom-file-label{
+  background-color: #f6f3f3;
+  border-color: #f6f3f3;
+}
+
+.input-group>.input-group-append>.btn{
+  border-color: #f6f3f3;
+}
+
+.custom-file-input:lang(ja) ~ .custom-file-label::after {
+  content: "参照";
+}
+     
+.custom-file {
+  max-width: 20rem;
+  overflow: hidden;
+}
+.custom-file-label {
+  white-space: nowrap;
+}
+
+/************* Toggle ******************/
+
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+/************* Table ******************/
+
+.analytics-table{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #888da8;
+  line-height: 24px;
+  background-color: #FFF;
+  padding: 30px;
+  margin-top:15px;
+}
+
+#views-number {
+  color: #66c0c2;
+}
+
+.number-of-views{
+  margin-bottom: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.analytics-table thead tr th {
+  white-space: nowrap;
+}
+
+
+.new-channel {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.channel-list {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.chanel-item a.subscribe {
+  font-family: 'Roboto', sans-serif;
+  background-color: #66c0c2;
+  height: 25px;
+  width: 85px;
+  text-align: center;
+  display: block;
+  float: right;
+  font-size: 11px;
+  font-weight: 900;
+  color: #FFF;
+  margin-top: 25px;
+  position: relative;
+  z-index: 5;
+}
+
+.basic-info-item {
+  background-color: #FFF;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  padding: 30px;
+  text-transform: uppercase;
+}
+
+.basic-info-item tbody{
+  text-align: center;
+}
+
+#all-output .analytics-table tbody tr .img-thumbnail {
+  border-radius: 2rem;
+  margin-left: 1rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+#all-output .analytics-table .table td, #all-output .analytics-table .table th {
+  vertical-align: middle;
+}
+
+/************* Movie Single ******************/
+
+.chanel-item .chanel-info span.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #333333;
+  margin-left: 10px;
+}
+
+.chanel-item .chanel-info {
+margin-right: initial;
+}
+
+
+/************* Password Reset ******************/
+
+.realperson-challenge {
+  padding: 1rem;
+}
+
+.realperson-challenge .realperson-text {
+  font-weight: initial;
+  letter-spacing: -3px;
+}
+
+.realperson-challenge .realperson-regen {
+  padding-top: 12px;
+}
+
+.new-password{
+text-align: center;
+background-color: #66c0c2;
+padding: 1rem;
+color: black;
+}
+
+.new-password-button {
+  text-align: center;
+  padding: 1rem;
+}
+
+#password-reset-comp p{
+  color: black;
+  font-size: 16px;
+}
+
+.invited-mail{
+  color: black;
+}
+
+
+/************* Terms of service ******************/
+
+.terms-of-service .log-in-form {
+  max-width: 800px;
+}
+
+.terms-of-service h1 {
+text-transform: initial;
+}
+
+
+/************* 写真｜カテゴリー ******************/
+.category_wrap .chanel-item .chanel-info {
+  margin-top: initial;
+}
+
+.category_wrap .chanel-item a.subscribe {
+  margin-top: 14px;
+}
+
+/************* イベント｜掲載期間 ******************/
+.event .form-group .form-row .fa,
+.items .indi-item .form-row .fa {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+.event .form-group .form-row .event-period,
+.items .indi-item .form-row .event-period {
+  padding: 7px;
+}
