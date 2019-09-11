@@ -279,3 +279,9 @@ text-transform: initial;
 .items .indi-item .form-row .event-period {
   padding: 7px;
 }
+
+#eventErase p {
+  font-size: 16px;
+  color: #111;
+  margin-bottom: 6px;
+}
